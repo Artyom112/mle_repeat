@@ -1,0 +1,11 @@
+# env and venv files
+.env
+.venv/
+
+# data
+data/
+
+#  Jupyter
+# add notebooks folder to ignore
+notebooks/
+**/.ipynb_checkpoints/

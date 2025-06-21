@@ -1,2 +1,18 @@
-This is a repository for repeatition of everything we've learned so far during the MLE course
-# add line
+# This is a repository for repeatition of everything we've learned so far during the MLE course
+
+## POSTGRE
+Credentials for POSTGRE database:
+user: ak
+password: 18061993a
+db name: mle_repeat_db
+
+Login as a postgres user:
+`sudo -i -u postgres`
+
+Command to connect to db:
+`psql -h localhost -U ak -d mle_repeat_db`
+
+Check the content of the db:
+`\dt`
+
+Exit: `exit`
